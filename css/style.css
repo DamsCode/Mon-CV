@@ -1,7 +1,3 @@
-img {
-    width: 30%;
-}
-
 .page {
     width: 780px;
     margin: auto;
@@ -19,6 +15,12 @@ img {
 
 .photo {
     float: right;
+    width: 20%;
+    display: block;
+}
+
+.photo img {
+    width: 100%
 }
 
 .section {

@@ -2,7 +2,6 @@
         display: flex;
         margin: auto;
         font-size: 16px;
-        flex: 20% 20% 20% 20% 20%;
         font-family: sans-serif;
         flex-flow: column wrap;
     }
@@ -29,25 +28,19 @@
     }
     
     .section {
-        border: cyan;
-        border-width: 2px;
-        border-style: dashed;
         display: flex;
-        flex-flow: column nowrap;
+        flex-flow: row wrap;
     }
     
     .sec-gauche {
-        border: #3388BB;
-        border-width: 2px;
-        border-style: dashed;
         font-weight: bold;
         font-size: 20px;
+        align-content: flex-end;
+        margin-right: 100px;
     }
     
     .sec-droite {
-        border-block-color: red;
-        border-width: 2px;
-        border-style: dashed;
+        align-content: flex-end;
     }
     
     strong {
